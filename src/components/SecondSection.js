@@ -33,24 +33,24 @@ export default class SecondSection extends Component {
                 </Center>
                 <Center>
                     {this.state.loading == true ? <Text>Loading...</Text> : 
-                        <Table variant='simple'>
+                        <Table className='table' variant='simple'>
                                 <Thead>
                                     <Tr>
-                                        <Th>Nama Provinsi</Th>
-                                        <Th textAlign='center'>Terkonfirmasi</Th>
-                                        <Th textAlign='center'>Dirawat</Th>
-                                        <Th textAlign='center'>Sembuh</Th>
-                                        <Th textAlign='center'>Meninggal</Th>
+                                        <Th className='tablecontent'>Nama Provinsi</Th>
+                                        <Th textAlign='center' className='tablecontent'>Terkonfirmasi</Th>
+                                        <Th textAlign='center' className='tablecontent'>Dirawat</Th>
+                                        <Th textAlign='center' className='tablecontent'>Sembuh</Th>
+                                        <Th textAlign='center' className='tablecontent'>Meninggal</Th>
                                     </Tr>
                                 </Thead>
                                 <Tbody>
                                     {this.state.provinsi.map(item => (
                                         <Tr>
-                                            <Th>{item.provinsi}</Th>
-                                            <Th textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.kasus} /></Th>
-                                            <Th textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.dirawat} /></Th>
-                                            <Th textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.sembuh} /></Th>
-                                            <Th textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.meninggal} /></Th>
+                                            <Th className='tablecontent'>{item.provinsi}</Th>
+                                            <Th className='tablecontent' textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.kasus} /></Th>
+                                            <Th className='tablecontent' textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.dirawat} /></Th>
+                                            <Th className='tablecontent' textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.sembuh} /></Th>
+                                            <Th className='tablecontent' textAlign='center'><CountUp separator=',' className='countup' duration={1.5} end={item.meninggal} /></Th>
                                         </Tr>
                                     ))}
                                 </Tbody>
