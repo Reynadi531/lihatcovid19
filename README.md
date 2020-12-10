@@ -1,4 +1,7 @@
 # Lihat COVID-19
+<p align='center'>
+  <img src='https://www.site-shot.com/cached_image/GAMdRjrwEeuYnAJCrBEABA'></img>
+</p>
 
 Lihat COVID-19 adalah project iseng yang saya buat untuk mengisi portofolio. Di dalamnya dapat melihat data kumulatif terbaru penyebaran COVID-19 di Dunia dan Indonesia, sampai ke detail provinsi. Hasilnya dapat dilihat [disni](https://lihatcovid19.now.sh/)
 
