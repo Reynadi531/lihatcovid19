@@ -1,6 +1,6 @@
 # Lihat COVID-19
 
-Lihat COVID-19 adalah project iseng yang saya buat untuk mengisi portofolio. Di dalamnya dapat melihat data kumulatif terbaru penyebaran COVID-19 di Dunia dan Indonesia, sampai ke detail provinsi 
+Lihat COVID-19 adalah project iseng yang saya buat untuk mengisi portofolio. Di dalamnya dapat melihat data kumulatif terbaru penyebaran COVID-19 di Dunia dan Indonesia, sampai ke detail provinsi. Hasilnya dapat dilihat [disni](https://lihatcovid19.now.sh/)
 
 ### Data dari:
 > - [mathdroid/covid-19-api](https://github.com/mathdroid/covid-19-api)<br>
