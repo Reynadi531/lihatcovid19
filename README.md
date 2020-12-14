@@ -25,4 +25,4 @@ Lihat COVID-19 adalah project iseng yang saya buat untuk mengisi portofolio. Di 
 > *Belum teroptimalisasi untuk perangkat mobile dan mungkin beberapa perangkat dekstop lainnya*
 
 ### License:
-*MIT License 2020, Reynadi531* 
+[*MIT License 2020, Reynadi531*](https://opensource.org/licenses/mit-license.php) 
